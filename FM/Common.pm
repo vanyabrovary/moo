@@ -6,11 +6,11 @@ use Method::Signatures;
 use Plugin::FM::Parser;
 use Plugin::FM::Cart;
 use Plugin::FM::AuthKey;
-use Plugin::FM::WayForPay;
+use Plugin::FM::Pay;
 use Plugin::FM::Order;
 use Plugin::FM::Schema;
 
-with 'Plugin::FM::Parser', 'Plugin::FM::Cart', 'Plugin::FM::WayForPay', 'Plugin::FM::AuthKey', 'Plugin::FM::Order', 'Plugin::FM::Schema';
+with 'Plugin::FM::Parser', 'Plugin::FM::Cart', 'Plugin::FM::Pay', 'Plugin::FM::AuthKey', 'Plugin::FM::Order', 'Plugin::FM::Schema';
 
 use namespace::autoclean;
 
